@@ -6,7 +6,7 @@ import org.gradle.kotlin.dsl.*
 // --- buildscript 블록: 플러그인 의존성 ---
 buildscript {
     // Kotlin 버전을 extra 프로퍼티로 선언
-    val kotlinVersion by extra("1.7.10")
+    val kotlinVersion by extra("2.1.0")
 
     repositories {
         google()
